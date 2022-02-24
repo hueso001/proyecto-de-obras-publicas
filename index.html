@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <title>Localizador de Obras Municipales</title>
+    <link rel="icon" href="imagenes/icono.ico">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700"
+      rel="stylesheet"
+    />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+	
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <header>
+   
+  </header>
+  <body>
+    <div class="contenedor">
+      <!-- barra de navegacion y logos -->
+ <nav class="navegacion">
+     <img src="imagenes/Malargue.png" alt="logo temporal" class="imagen">
+     <ul class="menu" >
+         <li>
+             <a href="index.html">INICIO</a>
+         </li>
+         <li>
+             <a href="contenido/pregunta_frec.html">METAS</a>
+         </li>
+         <li>
+             <a href="https://www.malargue.gov.ar/">ORGANIZACIONES</a>
+         </li>
+         <li>
+             <a href="https://www.google.com/travel/things-to-do?g2lb=2502548%2C4258168%2C4270442%2C4306835%2C4317915%2C4328159%2C4371335%2C4401769%2C4419364%2C4428793%2C4429192%2C4463263%2C4463666%2C4464463%2C4478537%2C4482194%2C4482438%2C4484378%2C4270859%2C4284970%2C4291517&hl=es-419&gl=ar&un=1&dest_mid=%2Fm%2F06cl10&dest_state_type=main&dest_src=ts&sa=X&ved=2ahUKEwjQm4XSwdbtAhU6EbkGHSVZAOkQuL0BMAB6BAgBEB4#ttdm=-36.014390_-69.534978_8&ttdmf=%252Fm%252F068c7m">lUGARES DE INTERES</a>
+         </li>
+         <li>
+             <a href="login/index.html">INGRESAR</a>
+         </li>
+     </ul>
+     <ul class="redes">
+       <a href="https://www.instagram.com/municipalidad_de_malargue/?hl=es"><img src="imagenes/insta.png" alt="" class="imagen-red"></a>
+     </ul>
+     <ul class="redes">
+      <a href="https://www.facebook.com/MunicipalidadMgue/"><img src="imagenes/face.png" alt="" class="imagen-red"></a>
+    </ul>
+    <ul class="redes">
+      <a href="https://twitter.com/munimalargue?lang=es"><img src="imagenes/twiter.png" alt="" class="imagen-red"></a>
+    </ul>
+ </nav>
+ <br>
+ <div class = "titulo">
+  <h1>UBICACIONES IMPORTANTES EN EL DEPARTAMENTO DE MALARGÜE</h1>
+ </div>
+ <div class="contenido">
+ <button class="boton">Obras Municipales</button>
+</div>
+</div>
+<div class="centro">
+<div id="map" class="map"></div>
+
+	<div id="sidebar">
+        <h2>Obras de La Municipalidad de Malargüe</h2>
+      <script>
+        const formulario = document.querySelector('#formulario');
+        const boton = document.querySelector('#boton');
+      </script>
+      <div id="listings" class="listings"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js">
+  console.log(listings);
+  </script>
+  <script type="text/javascript" src="js/fetchapi.js"></script>
+</div>
+<script src="js/main.js" charset="utf-8"></script>
+</div>
+</body>
+         <!-- pie de pagina -->
+         <footer class="pie-pagina">
+          <ul>
+              <li>
+                  <a href="contenido/pregunta_frec.html">PREGUNTAS FRECUENTES</a>
+              </li>
+              <li>
+                  <a href="https://www.malargue.gov.ar/2017/02/01/guia-telefonica-de-la-municipalidad-de-malargue/">CONTACTO</a>
+              </li>
+          </ul>
+          <!-- agregar informacion extra-->
+      </footer>
+</html>
